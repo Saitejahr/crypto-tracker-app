@@ -1,0 +1,32 @@
+.grid-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin: 1.5rem 2rem;
+}
+.list-table {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.notFound-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.notFound-div button {
+  background-color: var(--blue);
+  color: var(--white);
+  border-radius: 2rem;
+  padding: 1rem 3rem;
+}
+@media only screen and (max-width: 1200px) {
+  .list-table {
+    width: 95%;
+  }
+}
