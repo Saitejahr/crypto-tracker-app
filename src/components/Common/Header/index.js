@@ -46,13 +46,7 @@ const Header = () => {
         CryptoTracker<span style={{ color: 'var(--blue)' }}>.</span>
       </h1>
       <div className="links">
-        <Switch
-          checked={darkMode}
-          color="primary"
-          onClick={() => {
-            changeMode()
-          }}
-        />
+        <Switch checked={darkMode} onClick={() => changeMode()} />
         <Link to="/">
           <p className="link">Home</p>
         </Link>
