@@ -69,6 +69,8 @@ export default function TemporaryDrawer() {
             <p className="link">{darkMode ? 'Light Mode' : 'Dark Mode'}</p>
             <Switch
               checked={darkMode}
+              style={{ color: 'var(--white)' }}
+              color="primary"
               onClick={() => {
                 changeMode()
               }}

@@ -48,6 +48,7 @@ const Header = () => {
       <div className="links">
         <Switch
           style={{ color: 'var(--white)' }}
+          color="primary"
           checked={darkMode}
           onClick={() => changeMode()}
         />
